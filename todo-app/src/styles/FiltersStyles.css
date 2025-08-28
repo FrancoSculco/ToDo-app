@@ -1,0 +1,22 @@
+.filters {
+  list-style: none;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filters a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.filters a:hover {
+  background: #eee;
+}
+
+.filters .selected {
+  border: 1px solid #ddd;
+  background: #f0f0f0;
+}
