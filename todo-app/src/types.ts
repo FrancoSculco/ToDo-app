@@ -1,3 +1,5 @@
+import type { TODO_FILTERS } from "./constants";
+
 export interface Todo {
   id: string,
   title: string,
